@@ -24,11 +24,12 @@ Results-driven SAP ABAP Technical Consultant with over 4 years of hands-on exper
 | Technology | Proficiency |
 |------------|-------------|
 | **SAP ABAP** | ⭐⭐⭐⭐⭐ |
-| **SAP BTP-CPI** | ⭐⭐⭐⭐⭐ |
+| **SAP BTP-CPI** | ⭐⭐⭐⭐ |
+| **REST/SOAP Integrations** | ⭐⭐⭐⭐⭐ |
 | **CDS Views** | ⭐⭐⭐⭐ |
 | **OData Services** | ⭐⭐⭐⭐ |
 | **SAP Fiori** | ⭐⭐⭐⭐ |
-| **Adobe Forms** | ⭐⭐⭐ |
+| **Adobe Forms** | ⭐⭐⭐ ⭐⭐|
 | **REST/SOAP APIs** | ⭐⭐⭐⭐⭐ |
 | **ALV Reports** | ⭐⭐⭐⭐⭐ |
 
