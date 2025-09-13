@@ -113,7 +113,9 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, var(--sap-gray) 0%, var(--sap-blue-dark) 100%);
+    background:
+        linear-gradient(135deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 100%),
+        url('screenshots/sap.png') center center/cover no-repeat;
     color: var(--sap-white);
     position: relative;
     overflow: hidden;
@@ -130,7 +132,6 @@ body {
     position: relative;
     overflow: hidden;
 }
-
 .hero-background {
     position: absolute;
     top: 0;
@@ -1499,4 +1500,5 @@ section {
 
 .hidden {
     display: none;
+
 }
