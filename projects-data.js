@@ -24,7 +24,7 @@ impact: [
   "Delivered robust monitoring and error handling with complete audit traceability"
 ],
 
-    images: Array.from({ length: 11 }, (_, i) => `zatca/zatca_${i + 1}.png`)
+    images: Array.from({ length: 11 }, (_, i) => `zatca/ZATCA_${i + 1}.png`)
   },
 
   fbr: {
@@ -185,3 +185,4 @@ mobile: {
     images: Array.from({ length: 5 }, (_, i) => `abap/abap_${i + 1}.png`)
   }
 };
+
