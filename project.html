@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project Details</title>
+
+  <!-- Styles & fonts -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="index.html"><span class="logo-text"></span></a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html#about">Home</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Project Details -->
+  <section id="project-details" class="project-details container">
+    <!-- JS injects content here -->
+  </section>
+
+  <!-- Lightbox (MUST be inside <body>) -->
+  <div id="lightbox" class="lightbox hidden" aria-hidden="true">
+    <button id="lightbox-close" class="lightbox-close" aria-label="Close">&times;</button>
+    <button id="lightbox-prev" class="lightbox-nav lightbox-prev" aria-label="Previous">&#10094;</button>
+    <img id="lightbox-img" src="" alt="Screenshot preview" />
+    <button id="lightbox-next" class="lightbox-nav lightbox-next" aria-label="Next">&#10095;</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Muhammad Umer Anwar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="projects-data.js"></script>
+  <script src="project.js"></script>
+</body>
+</html>
