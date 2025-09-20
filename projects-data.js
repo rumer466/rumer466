@@ -1,7 +1,7 @@
 const projects = {
   zatca: {
     title: "ZATCA / FBR e-Invoicing Integration",
-    status: "Phase 2 – Completed & Live in Production ✅",
+    status: "Phase 2 – In Process",
     technologies: [
       "SAP BTP – CPI, ABAP Proxies, SOAP Web Services, eDocument Framework, Fatoora Portal",
     ],
@@ -185,5 +185,6 @@ mobile: {
     images: Array.from({ length: 5 }, (_, i) => `abap/abap_${i + 1}.png`)
   }
 };
+
 
 
