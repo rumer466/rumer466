@@ -1,14 +1,14 @@
 const projects = {
   zatca: {
     title: "ZATCA / FBR e-Invoicing Integration",
-    status: "Phase 2 – In Process",
+    status: "Completed ✅",
     technologies: [
       "SAP BTP – CPI, ABAP Proxies, SOAP Web Services, eDocument Framework, Fatoora Portal",
     ],
     problem:
       "Saudi Arabia (ZATCA) Phase 2 required strict e-invoicing compliance. Manual handling was no longer viable, so the client needed real-time integration between SAP and the tax authority portal to ensure compliance and business continuity.",
     role:
-      "As SAP ABAP & CPI Consultant, I designed and implemented the full Phase 2 rollout in production, covering CPI flows, ABAP proxies, certificate-based security, and eDocument framework integration.",
+      "As SAP ABAP & CPI Consultant, I designed and implemented the full Phase 2 rollout, covering CPI flows, ABAP proxies, certificate-based security, and eDocument framework integration.",
     solution: [
       "Configured secure SSL connectivity and certificate management in STRUST for production tenants",
       "Set up CPI tenants (test & production) and deployed credentials (Basic & OAuth2) for authentication",
@@ -29,7 +29,7 @@ impact: [
 
   fbr: {
     title: "FBR e-Invoicing Integration (Pakistan)",
-    status: "Custom Solution – Live in Production ✅",
+    status: "Ongoing 🟡",
     technologies: [
       "SAP BTP – CPI",
       "SAP RAP (Restful ABAP Programming Model)",
@@ -185,6 +185,7 @@ mobile: {
     images: Array.from({ length: 5 }, (_, i) => `abap/abap_${i + 1}.png`)
   }
 };
+
 
 
 
